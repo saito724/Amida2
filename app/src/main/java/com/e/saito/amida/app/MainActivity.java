@@ -14,6 +14,10 @@ import android.os.Build;
 
 
 public class MainActivity extends Activity {
+    private Fragment mSettingFragment;
+    private Fragment mRenderFragment;
+    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,19 +50,4 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    /**
-     * A placeholder fragment containing a simple view.
-     */
-    public static class PlaceholderFragment extends Fragment {
-
-        public PlaceholderFragment() {
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_setting, container, false);
-            return rootView;
-        }
-    }
 }
