@@ -10,6 +10,10 @@ import android.view.ViewGroup;
  * Created by e.saito on 2014/06/11.
  */
 public class RenderFragment extends Fragment {
+    public static interface  RenderEventLListener{
+
+    }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

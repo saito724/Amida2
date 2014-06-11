@@ -2,7 +2,10 @@
 <resources>
 
     <string name="app_name">Amida</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="action_start">START</string>
 
+
+    <string name="explain_selectNum">数値を選択してください。</string>
+    <string name="explain_inputResult">結果を入力してください。</string>
 </resources>
